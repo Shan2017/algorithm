@@ -6,7 +6,7 @@ map = [
   [inf, inf, 0, inf, 5, inf],
   [inf, inf, 4, 0, 13, 15],
   [inf, inf, inf, inf, 0, 4],
-  [inf, inf, inf, inf, 0]
+  [inf, inf, inf, inf, 0, 4]
 ]
 
 dis = map.first
