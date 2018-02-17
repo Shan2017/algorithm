@@ -14,6 +14,7 @@ book = []
 dis.each_with_index { |item, index| book[index] = 0 }
 u = 0
 
+# core code
 for i in 0...map.size - 1
   min = inf
   for j in 0...map.size
@@ -22,8 +23,8 @@ for i in 0...map.size - 1
       u = j
     end
   end
-  book[u] = 1
 
+  book[u] = 1
   for v in 0...map.size
     dis[v] = dis[u] + map[u][v] if map[u][v] < inf && dis[v] > dis[u] + map[u][v]
   end
